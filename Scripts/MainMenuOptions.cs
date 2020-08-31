@@ -6,14 +6,17 @@ using UnityEngine.SceneManagement;
 public class MainMenuOptions : MonoBehaviour
 {
     public static bool isLoading = false;
+    public AudioSource clickSound;
 
     public void NewGame()
     {
+        clickSound.Play();
         SceneManager.LoadScene(1);
     }
 
     public void LoadGame()
     {
+        clickSound.Play();
         isLoading = true;
         SceneManager.LoadScene(1);
     }
