@@ -23,7 +23,7 @@ public class HoshiHearts : MonoBehaviour
     public static int HoshiHeartCount = 0;
 
     string[] hoshiQuotes = new string[4] { "Very nice!",
-        "My heart goes boom-boom.", "rawr", "This is true love~" };
+        "My heart goes boom-boom.", "Yes of the yes! ", "~(^o^)~" };
 
     public void ClickTheButton()
     {

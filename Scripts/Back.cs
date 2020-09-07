@@ -10,6 +10,6 @@ public class Back : MonoBehaviour
     public void GoBack()
     {
         backSound.Play();
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }

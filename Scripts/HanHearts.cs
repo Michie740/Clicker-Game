@@ -20,7 +20,7 @@ public class HanHearts : MonoBehaviour
     public string randomHanQuote;
     public static int HanHeartCount = 0;
 
-    string[] hanQuotes = new string[4] { "Han", "han", "HAN", "haN" };
+    string[] hanQuotes = new string[4] { "WOW~", "DOUBLE KNOT ON MY YEEZYS!", "Chef's Kiss!", "<3 <3 <3" };
 
     public void ClickTheButton()
     {

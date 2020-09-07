@@ -11,13 +11,13 @@ public class MainMenuOptions : MonoBehaviour
     public void NewGame()
     {
         clickSound.Play();
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void LoadGame()
     {
         clickSound.Play();
         isLoading = true;
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 }
